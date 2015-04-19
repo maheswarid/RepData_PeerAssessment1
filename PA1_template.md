@@ -29,7 +29,7 @@ Median of total number of steps per day = 10765
 
 ```r
 hist(steps$x,main="Distribution of Steps taken per day",
-            xlab="Steps take per day",col="orange",breaks=seq(0,25000,1000))
+            xlab="Steps taken per day",col="orange",breaks=seq(0,25000,1000))
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-3-1.png) 
@@ -102,7 +102,7 @@ sum(is.na(populated$steps))
 
 ```r
     hist(populated_steps$x,main="Distribution of Steps taken per day with NA's imputed",
-            xlab="Steps take per day",col="orange",breaks=seq(0,25000,1000))
+            xlab="Steps taken per day",col="orange",breaks=seq(0,25000,1000))
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-9-1.png) 

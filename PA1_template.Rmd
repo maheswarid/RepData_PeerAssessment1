@@ -31,7 +31,7 @@ Median of total number of steps per day = `r step_median`
 ### Make a histogram of the total number of steps taken each day
 ```{r}
 hist(steps$x,main="Distribution of Steps taken per day",
-            xlab="Steps take per day",col="orange",breaks=seq(0,25000,1000))
+            xlab="Steps taken per day",col="orange",breaks=seq(0,25000,1000))
 ```
 
 ### What is the average daily activity pattern?
@@ -83,7 +83,7 @@ sum(is.na(populated$steps))
 ###Make a histogram of the total number of steps taken each day with new data set
 ```{r}
     hist(populated_steps$x,main="Distribution of Steps taken per day with NA's imputed",
-            xlab="Steps take per day",col="orange",breaks=seq(0,25000,1000))
+            xlab="Steps taken per day",col="orange",breaks=seq(0,25000,1000))
 ```            
 
 ##### Calculate and report the mean and median
